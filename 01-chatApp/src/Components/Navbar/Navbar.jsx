@@ -25,11 +25,10 @@ function Navbar() {
     {
         name: "Settings",
         logo: <MdOutlineSettings />
-    }]
+    }];
+
     return (
-
         <nav className='h-screen w-20 text-white px-12 py-20'>
-
             <div className='flex flex-col items-center gap-6 relative '>
                 {navOptions.map((opt) => (
                     <button className='relative group hover:font-bold hover:text-green-200 cursor-pointer text-2xl'>{opt.logo}

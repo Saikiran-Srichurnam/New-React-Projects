@@ -1,6 +1,6 @@
 
 import './App.css'
-import { ContactList, Navbar } from './Components';
+import { ContactList, IndividualContact, Navbar } from './Components';
 import { FaWhatsapp } from "react-icons/fa";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <div className='flex'>
         <Navbar />
         <ContactList />
+        <IndividualContact />
       </div>
     </div>
   )
